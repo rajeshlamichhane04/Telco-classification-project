@@ -23,11 +23,11 @@
 
 ## Initial Questions
 
-> - 1. What portion of customers are churning?
-> - 2. What is the timeline of the most churn?
-> - 3. Do the customers who churner pay higher monthly charges?
-> - 4. Does contract type determine those customers who like churn?
-> - 5. Do customers who churn oftem have more or less have services?
+> -  What portion of customers are churning?
+> -  What is the timeline of the most churn?
+> -  Do the customers who churner pay higher monthly charges?
+> -  Does contract type determine those customers who like churn?
+> -  Do customers who churn oftem have more or less have services?
 
 ## Data Dictionary
 
