@@ -41,9 +41,11 @@ Initial Questions
 
 Data Dictionary
 
-Variable	Meaning
-customer_id	alphas numeric identifer for each customer
-gender	if customer is male or female
+|Variable|Meaning|
+|customer_id|	alphas numeric identifer for each customer|
+|gender|if customer is male or female|
+
+
 senior_citizen	if customer is a senior citizen or not
 partner	if customer has a partner or not
 dependents	if customer has dependents or not
