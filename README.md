@@ -41,30 +41,27 @@ Initial Questions
 
 Data Dictionary
 
-|Variable|Meaning|
-|customer_id|	alphas numeric identifer for each customer|
-|gender|if customer is male or female|
-
-
-senior_citizen	if customer is a senior citizen or not
-partner	if customer has a partner or not
-dependents	if customer has dependents or not
-tenure	number of months the customer has been with telco
-phone_service	if customer has phone service or not
-multiple_lines	if customer has phone multiple phone lines or not, or no phone service
-online_security	if customer has online security or not, or no internet service
-online_backup	if customer has online backup or not, or no internet service
-device_protection	if customer has device protection or not, or no internet service
-tech_support	if customer has tech support or not, or no internet service
-streaming_tv	if customer has streaming tv or not, or no internet service
-streaming_movies	if customer has streaming movies or not, or no internet service
-paperless_billing	if custome has paperless billing or not
-monthly_charges	amount paid by custome per month
-total_charges	total amount paid by customer over tenure
-churn	if customer has left telco or not
-contract_type	if customer has a month-to-month, 1 year, or 2 year contract
-internet_service_type	if customer's internet service is fiber optic, DSL, or no internet service
-payment_type	payment is mailed check, electronic check, auto credit card, or auto bank account
+1. customer_id = alphas numeric identifer for each customer|
+2. gender = if customer is male or female|
+3. senior_citizen = if customer is a senior citizen or not
+4. partner = if customer has a partner or not
+5. dependents = if customer has dependents or not
+6. tenure= number of months the customer has been with telco
+7. phone_service = if customer has phone service or not
+8. multiple_lines = if customer has phone multiple phone lines or not, or no phone service
+9. online_security = if customer has online security or not, or no internet service
+10. online_backup = if customer has online backup or not, or no internet service
+11. device_protection = if customer has device protection or not, or no internet service
+12. tech_support = if customer has tech support or not, or no internet service
+13. streaming_tv = if customer has streaming tv or not, or no internet service
+14. streaming_movies = if customer has streaming movies or not, or no internet service
+15. paperless_billing = if custome has paperless billing or not
+16. monthly_charges = amount paid by custome per month
+17. total_charges = total amount paid by customer over tenure
+18. churn = if customer has left telco or not
+19. contract_type = if customer has a month-to-month, 1 year, or 2 year contract
+20. internet_service_type = if customer's internet service is fiber optic, DSL, or no internet service
+21. payment_type = payment is mailed check, electronic check, auto credit card, or auto bank account
 
 
 
