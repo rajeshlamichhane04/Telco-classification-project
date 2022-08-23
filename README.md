@@ -6,12 +6,12 @@
 
 > - This repository houses a complete files for this project. These files are
 
-> - 1. README.md: It contains the outline of this project
-> - 2. Final_report_Telco.ipynb: This jupyter notebook consists of data science pipeline used to study the churn at Telco
-> - 3. predictions.csv: It consists of customers prediction of churn modeled by our prediction model.
-> - 4. acquire.py: It consists of codes for data acquition process
-> - 5. prepare.py: It consists of codes for data cleaning and data split
-> - 6. .igitignore file: It consists of file names that I do not want to be push to git
+> -  README.md: It contains the outline of this project
+> -  Final_report_Telco.ipynb: This jupyter notebook consists of data science pipeline used to study the churn at Telco
+> -  predictions.csv: It consists of customers prediction of churn modeled by our prediction model.
+> -  acquire.py: It consists of codes for data acquition process
+> -  prepare.py: It consists of codes for data cleaning and data split
+> -  .igitignore file: It consists of file names that I do not want to be push to git
 
 ## Project Goals
 
