@@ -6,12 +6,12 @@
 
 > - This repository houses a complete files for this project. These files are
 
-> - 1. README.md: It contains the outline of this project
-> - 2. Final_report_Telco.ipynb: This jupyter notebook consists of data science pipeline used to study the churn at Telco
-> - 3. predictions.csv: It consists of customers prediction of churn modeled by our prediction model.
-> - 4. acquire.py: It consists of codes for data acquition process
-> - 5. prepare.py: It consists of codes for data cleaning and data split
-> - 6. .igitignore file: It consists of file names that I do not want to be push to git
+> -  README.md: It contains the outline of this project
+> -  Final_report_Telco.ipynb: This jupyter notebook consists of data science pipeline used to study the churn at Telco
+> -  predictions.csv: It consists of customers prediction of churn modeled by our prediction model.
+> -  acquire.py: It consists of codes for data acquition process
+> -  prepare.py: It consists of codes for data cleaning and data split
+> -  .igitignore file: It consists of file names that I do not want to be push to git
 
 ## Project Goals
 
@@ -23,11 +23,11 @@
 
 ## Initial Questions
 
-> - 1. What portion of customers are churning?
-> - 2. What is the timeline of the most churn?
-> - 3. Do the customers who churner pay higher monthly charges?
-> - 4. Does contract type determine those customers who like churn?
-> - 5. Do customers who churn oftem have more or less have services?
+> -  What portion of customers are churning?
+> -  What is the timeline of the most churn?
+> -  Do the customers who churner pay higher monthly charges?
+> -  Does contract type determine those customers who like churn?
+> -  Do customers who churn oftem have more or less have services?
 
 ## Data Dictionary
 
@@ -58,27 +58,29 @@
 
 ## Steps to Reproduce
 
-> - 1. To clone this repo, use this command in your terminal https://github.com/rajeshlamichhane04/Telco-classification-project
-> - 2. You will need login credentials for MySQL database hosted at data.codeup.com
-> - 3. You will need an env.py file that contains hostname,username and password
-> - 4. The env.py should also contain a function named get_db_url() that establishes the string value of the database url.
-> - 5. Store that env file locally in the repository.
+> -  To clone this repo, use this command in your terminal https://github.com/rajeshlamichhane04/Telco-classification-project
+> -  You will need login credentials for MySQL database hosted at data.codeup.com
+> -  You will need an env.py file that contains hostname,username and password
+> -  The env.py should also contain a function named get_db_url() that establishes the string value of the database url.
+> -  Store that env file locally in the repository.
 
 ## The plan
 
-> - 1. Acquisition
+> - I set up my initial questions during this phase. I made the outline of possible exploration techniques and hypothesis testing I can use.
+
+##  Acquisition
 
 > - I obtanied Telco customer data by using SQL query via MySQL database. I saved the file locally as a csv. I used the code created at acquire.py.
 
-> - 2. Preparation
+## Preparation
 
 > - I accomplished this using prepare.py file. I cleaned up the data by adding missing values to column and dropping unnecessary columns. I also hard encoded them to fit in to ML format. Further I split my data into train (60%), validate(20%) and test (20%).
 
-> - 3. Exploration
+> ##  Exploration
 
 > - I used only my training data for exploration. I answered my initial question using various seaborn and matplotlib visualizations and hypothesis testings. This helped me identify my drivers of churn.
 
-## 4. Modeling
+##  Modeling
 
 > - First, I set up my baseline model accuracy and split my dataset into X and y where X is the drivers of churn and y is the target variable chirn. Using various features and hyperparameters, I tested my train data on models such as Decision Tree, Random Forest, K-Nearest Neighbor and Logisitic Regression. I tested the models in my validate data to help me identify my best model and used the best model in my test data to make predictions.
 
@@ -87,8 +89,8 @@
 > - I submitted a prediction file in csv named as predictions.csv in this repository as per project specification.
 
 ## Key Takeaways and Recommendations
-> - 1. New customers churn at higher rates so they should be offered discounts in thier monthly charges.
-> - 2. Customers on month to month contract are more vunerable to churn so they needed to be provided with incentives to switch to longer contracts.
+> - New customers churn at higher rates so they should be offered discounts in thier monthly charges.
+> - Customers on month to month contract are more vunerable to churn so they needed to be provided with incentives to switch to longer contracts.
 
 
 
