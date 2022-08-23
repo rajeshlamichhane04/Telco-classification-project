@@ -1,6 +1,6 @@
 # Telco-classification-project
 
-<hr style="border-top: 50px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
+<hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 ## Overview
 
